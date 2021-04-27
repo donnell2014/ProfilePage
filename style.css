@@ -1,0 +1,243 @@
+.container{
+    display: flex;
+    height: 800px;
+    width: auto;
+}
+.container1{
+    height: inherit;
+    margin: 10px;
+    width: 60%;
+}
+.container2{
+    height: inherit;
+    margin: 10px;
+    width: 40%;
+}
+.navbar{
+    background-color:black;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.items{
+    width: 80%;
+}
+ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    margin:0px;
+    justify-content: center;
+    margin-right:20%;
+}
+li{
+    justify-content: space-evenly;
+    margin: 10px;
+    color: white;
+    opacity: 50%;
+}
+.pro-file{
+    font-size: 200%;
+    opacity: 1;
+}
+.my{
+    opacity: 1;
+}
+.leftnav{
+    width: 30%;
+    font-size: 70%;
+    justify-content: flex-start;
+}
+button{
+    background-color: aqua;
+    color: white;
+    border:black;
+    height: 25px ;
+}
+.Profile{
+    height: 50%;
+    width: 60%;
+    margin: 30px;
+    margin-left: 40%;
+}
+.bluebar{
+    background-color: cyan;
+    height: 20%;
+    width: auto;
+    border: cyan;
+    border-style: solid;
+}
+.bluebar img{
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+.maininfo{
+    height: 80%;
+    width: auto;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+    border-color: darkgrey;
+    border-style: solid;
+    border-top: none;
+}
+.text{
+    margin:0px auto;
+}
+.text img{
+    padding-right:20px;
+    height:20px;
+}
+.bluebar img{
+    margin:10px 10px;
+    height: 150px;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+h2{
+    font-size: 25px;
+    /* margin: 0px 20px 20px; */
+}
+p{
+    font-size: 15px;
+    /* margin:0px 20 20; */
+}
+.text{
+    position: relative;
+    top: 90px;
+    margin-left:40px;
+}
+.connection{
+    height: 30%;
+    width: 40%;
+    margin: 30px;
+}
+.topbar{
+    background-color:  rgb(51, 52, 53);
+    height: 20%;
+    width: 100%;
+    margin: 0;
+}
+.topbar h3{
+    color: white;
+}
+.two{
+    border-radius: 50%;
+    background-color: white;
+    height: 30px;
+    width:30px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+.info2{
+    height:85%;
+    background-color: white;
+    border-color: darkgrey;
+    border-style: solid;
+    width: auto;
+    border-top: none;
+    font-size: 30px;
+}
+.info2 h3{
+    margin-top:0px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.info2 img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+
+}
+.education{
+    height: 33%;
+    width: 60%;
+    margin: 20px;
+    margin-left: 40%;
+}
+.topbar2{
+    background-color: rgb(51, 52, 53);
+    height: 20%;
+    width: 100%;
+}
+.topbar2 h3{
+    color: white;
+    margin: 20px;
+}
+.info1{
+    background-color: white;
+    border-color: darkgrey;
+    border-style: solid;
+    height: 80%;
+    width: auto;
+    border-top: none;
+}
+.info1 h2{
+    margin: auto;
+}
+.text1{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+.your-con{
+    height: 55%;
+    width:40%;
+    margin-left: 30px;
+}
+.topbar3{
+    background-color:  rgb(51, 52, 53);
+    height:15%;
+    width: 100%;
+}
+.topbar3 h3{
+    color: white;
+}
+.five{
+    border-radius: 50%;
+    background-color: white;
+    height: 20px;
+    width:40px;
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+.info3{
+    background-color:white;
+    height:70%;
+    width: auto;
+    border-style: solid;
+    border-color:darkgrey;
+    border-top: none;
+    border-bottom: none
+}
+.info3 img{
+    height: 40px;
+    width:40px;
+    margin: 5px;
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+}
+.info3 h2{
+    margin:auto;
+}
+.viewmore{
+    height:10%;
+    border-style: solid;
+    border-color: darkgrey;
+}
+a{
+    width: 50px;
+    height: 30px;
+    margin: 20px;
+    position: relative;
+    top: 10px;
+}
